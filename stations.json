@@ -1,0 +1,87 @@
+[
+    {
+        "id": "station-1",
+        "name": "Renewable Energy Oasis",
+        "description": "Unveiling the latest breakthroughs in sustainable energy solutions, fostering a greener future for all.",
+        "coordinates": {
+            "x": [
+                12,
+                13
+            ],
+            "y": [
+                6,
+                7
+            ]
+        },
+        "icon": "station-1.jpg",
+        "background": "#aa00aa"
+    },
+    {
+        "id": "station-2",
+        "name": "AI Innovations Hub",
+        "description": "Exploring the frontiers of AI and machine learning, revolutionizing industries with data-driven insights.",
+        "coordinates": {
+            "x": [
+                11,
+                12
+            ],
+            "y": [
+                12,
+                13
+            ]
+        },
+        "icon": "station-2.jpg",
+        "background": "#ff0000"
+    },
+    {
+        "id": "station-3",
+        "name": "Cosmic Discovery Center",
+        "description": "Delving into the wonders of space exploration, igniting curiosity and inspiring the next generation of astronauts.",
+        "coordinates": {
+            "x": [
+                20,
+                24
+            ],
+            "y": [
+                5,
+                6
+            ]
+        },
+        "icon": "station-3.jpg",
+        "background": "#113344"
+    },
+    {
+        "id": "station-4",
+        "name": "Oceanic Research Outpost",
+        "description": "Diving into the depths of oceanic research, uncovering marine biodiversity and safeguarding our seas.",
+        "coordinates": {
+            "x": [
+                18,
+                20
+            ],
+            "y": [
+                12,
+                13
+            ]
+        },
+        "icon": "station-4.jpg",
+        "background": "#ffdd00"
+    },
+    {
+        "id": "station-5",
+        "name": "Cultural Heritage Pavilion",
+        "description": "Embarking on a journey through history and culture, celebrating diversity and promoting global understanding.",
+        "coordinates": {
+            "x": [
+                23,
+                26
+            ],
+            "y": [
+                14,
+                16
+            ]
+        },
+        "icon": "station-5.jpg",
+        "background": "#00cc00"
+    }
+]
