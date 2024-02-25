@@ -6,15 +6,24 @@ fetch("stations.json")
         const modalsContainer = document.getElementById('modals-container');
         data.forEach(stationData => {
             // Create HTML station dynamically
-            const station = document.createElement("button");
-            station.classList.add("station", "grid-item", "modal-button");
-            station.setAttribute("id", stationData.id);
-            station.setAttribute("data-modal-target", "modal-" + stationData.id);
-            station.style.backgroundColor = stationData.background;
-            station.style.gridRow = stationData.coordinates.y[0].toString() + "/" + stationData.coordinates.y[1].toString()
-            station.style.gridColumn = stationData.coordinates.x[0].toString() + "/" + stationData.coordinates.x[1].toString()
-            stationsContainer.appendChild(station);
-            // Create HTML modal dynamically
+            rowA = stationData.coordinates.y[0].toString()
+            rowB = stationData.coordinates.y[1].toString()
+            columnA = stationData.coordinates.x[0].toString()
+            columnB = stationData.coordinates.x[1].toString()
+            var stationLandscapeHTML = `<button id="${stationData.id}"
+                                       class="station grid-item modal-button landscape"
+                                       data-modal-target="modal-${stationData.id}"
+                                       style="background-color: ${stationData.background};
+                                              grid-area: ${rowA} / ${columnA} / ${rowB} / ${columnB};"
+                                       ></button>`;
+            var stationPortraitHTML = `<button id="${stationData.id}"
+                                       class="station grid-item modal-button portrait"
+                                       data-modal-target="modal-${stationData.id}"
+                                       style="background-color: ${stationData.background};
+                                              grid-area: ${columnA} / ${19 - rowA + 1} / ${columnB} / ${19 - rowB + 1};"
+                                       ></button>`;
+            stationsContainer.innerHTML += stationLandscapeHTML;
+            stationsContainer.innerHTML += stationPortraitHTML;
             var modalHTML = `<div id="modal-${stationData.id}" class="modal">
                                 <div class="modal-content">
                                     <div class="modal-header">
