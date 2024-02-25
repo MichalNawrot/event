@@ -13,6 +13,13 @@ img {
     gap: 0px;
     padding: 0px;
 }
+.grid-container img {
+    z-index: 0;
+}
+
+.station {
+    z-index: 9999;
+}
 
 @media (orientation: landscape) {
     .grid-container {
