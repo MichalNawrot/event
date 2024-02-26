@@ -5,12 +5,12 @@
         "description": "Unveiling the latest breakthroughs in sustainable energy solutions, fostering a greener future for all.",
         "coordinates": {
             "x": [
-                12,
-                13
+                21,
+                23
             ],
             "y": [
-                6,
-                7
+                2,
+                4
             ]
         },
         "icon": "station-1.svg",
@@ -22,12 +22,12 @@
         "description": "Exploring the frontiers of AI and machine learning, revolutionizing industries with data-driven insights.",
         "coordinates": {
             "x": [
-                11,
-                12
+                20,
+                22
             ],
             "y": [
-                12,
-                13
+                10,
+                12
             ]
         },
         "icon": "station-2.svg",
@@ -39,12 +39,12 @@
         "description": "Delving into the wonders of space exploration, igniting curiosity and inspiring the next generation of astronauts.",
         "coordinates": {
             "x": [
-                20,
-                24
+                9,
+                11
             ],
             "y": [
-                5,
-                6
+                13,
+                16
             ]
         },
         "icon": "station-3.svg",
@@ -56,12 +56,12 @@
         "description": "Diving into the depths of oceanic research, uncovering marine biodiversity and safeguarding our seas.",
         "coordinates": {
             "x": [
-                18,
-                20
+                27,
+                29
             ],
             "y": [
-                12,
-                13
+                9,
+                11
             ]
         },
         "icon": "station-4.svg",
@@ -73,12 +73,12 @@
         "description": "Embarking on a journey through history and culture, celebrating diversity and promoting global understanding.",
         "coordinates": {
             "x": [
-                23,
-                26
+                30,
+                32
             ],
             "y": [
-                14,
-                16
+                12,
+                14
             ]
         },
         "icon": "station-5.svg",
