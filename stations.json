@@ -13,7 +13,7 @@
                 7
             ]
         },
-        "icon": "station-1.jpg",
+        "icon": "station-1.svg",
         "background": "#aa00aa"
     },
     {
@@ -30,7 +30,7 @@
                 13
             ]
         },
-        "icon": "station-2.jpg",
+        "icon": "station-2.svg",
         "background": "#ff0000"
     },
     {
@@ -47,8 +47,8 @@
                 6
             ]
         },
-        "icon": "station-3.jpg",
-        "background": "#113344"
+        "icon": "station-3.svg",
+        "background": "#1133dd"
     },
     {
         "id": "station-4",
@@ -64,7 +64,7 @@
                 13
             ]
         },
-        "icon": "station-4.jpg",
+        "icon": "station-4.svg",
         "background": "#ffdd00"
     },
     {
@@ -81,7 +81,7 @@
                 16
             ]
         },
-        "icon": "station-5.jpg",
+        "icon": "station-5.svg",
         "background": "#00cc00"
     }
 ]

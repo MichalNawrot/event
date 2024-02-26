@@ -14,12 +14,14 @@ fetch("stations.json")
                                        class="station grid-item modal-button landscape"
                                        data-modal-target="modal-${stationData.id}"
                                        style="background-color: ${stationData.background};
+                                              background-image: url('./icons/${stationData.id}.svg');
                                               grid-area: ${rowA} / ${columnA} / ${rowB} / ${columnB};"
                                        ></button>`;
             var stationPortraitHTML = `<button id="${stationData.id}"
                                        class="station grid-item modal-button portrait"
                                        data-modal-target="modal-${stationData.id}"
                                        style="background-color: ${stationData.background};
+                                              background-image: url('./icons/${stationData.id}.svg');
                                               grid-area: ${columnA} / ${19 - rowA + 1} / ${columnB} / ${19 - rowB + 1};"
                                        ></button>`;
             stationsContainer.innerHTML += stationLandscapeHTML;
@@ -27,8 +29,14 @@ fetch("stations.json")
             var modalHTML = `<div id="modal-${stationData.id}" class="modal">
                                 <div class="modal-content">
                                     <div class="modal-header">
+                                        <div style="flex:1;display:flex;justify-content:start;align-items:center;">
+                                            <img src="./icons/${stationData.id}.svg" alt="" 
+                                                 style="max-height:max(1em,30px);
+                                                        flex:0 1 2.5rem;
+                                                        margin-right:0.2em">
+                                            <h2 style="flex:1;">${stationData.name}</h2>
+                                        </div>
                                         <span class="close">&times;</span>
-                                        <h2>${stationData.name}</h2>
                                     </div>
                                     <div class="modal-body">
                                         <p>${stationData.description}</p>
